@@ -1,0 +1,282 @@
+.wave1{
+
+    
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./dgreenbg.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size:100%;
+
+
+    
+
+    right: 45%;
+
+    z-index: 3;
+
+    animation: wave1 46s linear infinite;
+    animation-delay: -5s;
+
+    
+}
+.wave2{
+
+    
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./mgreenbg.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size:100%;
+
+    right: 45%;
+
+    z-index: 2;
+    animation: wave1 34s linear infinite;
+    animation-delay: -2s;
+
+    
+}
+.wave3{
+
+    
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./lgreenbg.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size:100%;
+
+    right: 45%;
+
+    z-index: 1;
+    animation: wave1 29s linear infinite;
+    animation-delay: -7s;
+
+    
+}
+
+@keyframes wave1 {
+    0%{background-position-y: 0%;}
+    50%{background-position-y: 100%;}
+    100%{background-position-y: 0%;}
+}
+
+.wave4{
+
+    
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./dredbg.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size:100%;
+
+    left: 45%;
+
+    z-index: 3;
+    animation: wave1 25s linear infinite;
+    animation-delay: -5s;
+
+    
+}
+
+.wave5{
+
+    
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./mredbg.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size:100%;
+
+    left: 45%;
+
+    z-index: 2;
+    animation: wave1 22s linear infinite;
+    animation-delay: -2s;
+
+    
+}
+
+.wave6{
+
+    
+
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./lredbg.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 50%;
+    background-position-x: 0%;
+    background-size:100%;
+
+    left: 45%;
+
+    z-index: 1;
+
+    animation: wave1 27s linear infinite;
+    animation-delay: -7s;
+
+    
+    
+}
+
+@keyframes wave2 {
+    0%{background-position-x: 0%;}
+    50%{background-position-x: 100%;}
+    100%{background-position-x: 0%;}
+}
+
+.wave7{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./lredbgphone.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    background-size:200%;
+
+    
+
+    z-index: 1;
+
+    animation: wave2 23s linear infinite;
+    animation-delay: -7s;  
+}
+
+.wave8{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./mredbgphone.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    background-size:200%;
+
+
+
+    z-index: 2;
+
+    animation: wave2 45s linear infinite;
+    animation-delay: -7s;  
+}
+
+.wave9{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./dredbgphone.png);
+    background-repeat: no-repeat no-repeat;
+    
+    background-position:top left;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    background-size:200%;
+
+    
+
+    z-index: 3;
+
+    animation: wave2 12s linear infinite;
+    animation-delay: -7s;  
+}
+
+
+.wave10{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./lgreenbgphone.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    background-size:200%;
+
+    
+
+    z-index: 1;
+
+    animation: wave2 23s linear infinite;
+    animation-delay: -7s;  
+}
+
+.wave11{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./mgreenbgphone.png);
+    background-repeat: no-repeat no-repeat;
+    background-position:top left;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    background-size:200%;
+
+
+
+    z-index: 2;
+
+    animation: wave2 45s linear infinite;
+    animation-delay: -7s;  
+}
+
+.wave12{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+    background-image: url(./dgreenbgphone.png);
+    background-repeat: no-repeat no-repeat;
+    
+    background-position:top left;
+    background-position-y: 0%;
+    background-position-x: 50%;
+    background-size:200%;
+
+    
+
+    z-index: 3;
+
+    animation: wave2 12s linear infinite;
+    animation-delay: -7s;  
+}
